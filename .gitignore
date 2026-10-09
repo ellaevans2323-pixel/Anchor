@@ -1,0 +1,44 @@
+# Soroban/Stellar
+.soroban/
+.stellar/
+*.wasm
+
+# Rust
+/target
+target/
+**/*.profraw
+Cargo.lock
+
+# Web
+node_modules/
+dist/
+dist-ssr/
+.next/
+.output/
+.turbo/
+build/
+coverage/
+
+# Environment
+.env
+.env.*
+!.env.example
+*.local
+
+# Editor/System
+.codex
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing
+mutants.out/
+mutants.out.old/
+test_snapshots/
+**/test_snapshots/
